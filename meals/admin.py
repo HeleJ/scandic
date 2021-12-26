@@ -4,7 +4,7 @@ from django.contrib import admin
 
 from django_summernote.admin import SummernoteModelAdmin
 
-from .models import Meals ,
+from .models import Meals 
 
 
 class MealsAdmin(SummernoteModelAdmin , admin.ModelAdmin):  # instead of ModelAdmin
