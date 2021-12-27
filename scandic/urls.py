@@ -22,7 +22,8 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
 
     path('admin/', admin.site.urls),
-    path('meals/' , include('meals.urls' , namespace='meals')),
+    path('meals/', include('meals.urls', namespace='meals')),
+    path('reserve_table/', include('reservation.urls', namespace='reservation')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
