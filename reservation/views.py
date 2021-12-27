@@ -1,9 +1,15 @@
-from .models import Reservation
+"""
+    reservation app views.py
+"""
+
 from django.shortcuts import render
-from .forms import ReserveTableForm
 from reservation.models import Reservation
+from .models import Reservation
+from .forms import ReserveTableForm
 
 # Create your views here.
+
+
 def reserve_table(request):
     reserve_form = ReserveTableForm()
 
