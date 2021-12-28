@@ -23,12 +23,12 @@ class Meals(models.Model):
             self.slug = slugify(self.name)
         super(Meals, self).save(*args, **kwargs)
 
+    def __str__(self):
+        return str(self.name)
+
     class Meta:
         """
         Class Meta
         """
         verbose_name = 'meal'
         verbose_name_plural = 'meals'
-
-    def __str__(self):
-        return str(self.name)
