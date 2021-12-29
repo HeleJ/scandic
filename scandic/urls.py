@@ -22,10 +22,10 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
 
     path('admin/', admin.site.urls),
-    path('meals/', include('meals.urls', namespace='meals')),
-    path('contact/', include('contact.urls', namespace='contact')),
-    path('about-us/', include('aboutus.urls', namespace='aboutus')),
-    path('reserve_table/', include('reservation.urls', namespace='reservation')),
+    path('meals/', include('meals.urls'), name='meals'),
+    path('contact/', include('contact.urls'), name='contact'),
+    path('about-us/', include('aboutus.urls'), name='aboutus'),
+    path('reserve_table/', include('reservation.urls'), name='reservation'),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
