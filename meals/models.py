@@ -1,5 +1,5 @@
 """
-    meals models database
+meals models database
 """
 from django.db import models
 from django.utils.text import slugify
@@ -28,7 +28,7 @@ class Meals(models.Model):
 
     class Meta:
         """
-        Class Meta
+        Class Meta for verb
         """
         verbose_name = 'meal'
         verbose_name_plural = 'meals'

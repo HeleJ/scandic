@@ -1,3 +1,6 @@
+"""
+home app views.py
+"""
 from django.shortcuts import render
 from meals.models import Meals
 from aboutus.models import WhyChooseUs
@@ -5,6 +8,9 @@ from aboutus.models import WhyChooseUs
 
 
 def home(request):
+    """
+    for home page
+    """
     meals = Meals.objects.all()
     meal_list = Meals.objects.all()
     why_choose_us = WhyChooseUs.objects.all()

@@ -1,5 +1,5 @@
 """
-    contact app views.py
+contact app views.py
 """
 
 from django.shortcuts import render, redirect
@@ -36,4 +36,7 @@ def send_email(request):
 
 
 def send_success(request):
+    """
+    sender getting repond
+    """
     return HttpResponse('thanks you for you email ^_^')

@@ -1,7 +1,6 @@
 """
-    reservation app views.py
+reservation app views.py
 """
-
 from django.shortcuts import render
 from reservation.models import Reservation
 from .models import Reservation
@@ -11,6 +10,9 @@ from .forms import ReserveTableForm
 
 
 def reserve_table(request):
+    """
+    User can reserve a table
+    """
     reserve_form = ReserveTableForm()
 
     if request.method == 'POST':
