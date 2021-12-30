@@ -1,108 +1,198 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Scandic
 
-Welcome HeleJ,
+This website is the marketing website for the fictious Scandic restaurant and was built as part of the learning material for Code Institute's Fullstack Web Developer program (5P) Portfolio Project.
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential visitors and users.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Portfolio Project Four: Back end - Code Institute - Deadline 02th January 2022
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+[View the live project here.](https://scandic.herokuapp.com/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<img src="static/images/" width="500">
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+# Table of Contents
 
-Another blue button should appear to click: _Open Browser_.
+- [Scandic](#scandic)
+  * [The purpose of this site](#the-purpose-of-this-site)
+  * [User Experience](#user-experience)
+    + [User Goals](#user-goals)
+    + [Site Owners Goals](#site-owners-goals)
+    + [USER STORIES](#user-stories)
+    + [STRATEGY](#strategy)
+    + [SCOPE](#scope)
+    + [Structure](#structure)
+    + [SKELETON](#skeleton)
+  * [SURFACE](#surface)
+    + [Technologies](#technologies)
+  * [Existing Features](#existing-features)
+    + [Elements on every page](#elements-on-every-page)
+    + [Features Left to Implement](#features-left-to-implement)
+  * [Testing](#testing)
+    + [Responsiveness](#responsiveness)
+    + [Manual and Automated testing](#manual-and-automated-testing)
+    + [Errors encountered during development](#errors-encountered-during-development)
+    + [Known error present:](#known-error-present-)
+    + [Validating code](#validating-code)
+  * [Setting up Django environment.](#setting-up-django-environment)
+  * [Deployment](#deployment)
+  * [Credit](#credit)
+  * [Acknowledgment](#acknowledgment)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+# UX
 
-Another blue button should appear to click: _Open Browser_.
+## User stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Technologies
 
-To log into the Heroku toolbelt CLI:
+# SCOPE
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Features:**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  **Home page** -
 
-------
+  **Meals list** -
 
-## Release History
+  etc.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Structure
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### SKELETON
+  **Wireframe:**
+  The mockup for this site was done on Balsamiq Wireframes
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## SURFACE
+  **Colour Pallette:**
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  **Typography:**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Technologies
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Languages used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Existing Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features Left to Implement
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Responsiveness
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Manual and Automated testing
 
-------
 
-## FAQ about the uptime script
+### Errors encountered during development
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Setting up Django environment.
 
-**How will this affect me?**
+Following additional packages are installed to create this site by using pip3 install
+  
+  * gunicorn
+  * psycopg2
+  * django-summernote
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  ## Deployment
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Deployment steps
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+1. Git add and git commit the changes made
 
-**So….?**
+2. Log into [Heroku](https://id.heroku.com/login) or create a new account and log in
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+3. top right-hand corner click "New" and choose the option Create new app, if you are a new user, the "Create new app" button will appear in the middle of the screen
 
-**Can I opt out?**
+4. Write app name - it has to be unique, it cannot be the same as this app
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+5. Choose Region - I am in Europe
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+6. Click "Create App" The page of your project opens.
 
-**Anything more?**
+7. In the Add-on section in the resources tab, search postgres, then select Heroku Postgres and submit order from button in the popup window.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+8.  Choose "settings" from the menu on the top of the page
 
----
+9. Go to section "Config Vars" and click the button "Reveal Config Vars"
 
-Happy coding!
+10. Copy the value for DATABASE_URL key
+
+11. Create env.py directly under the repo directory same lavel as manage.py and make sure the file name is included in .gitignore as this is a setting for local development site in Gitpod. 
+Heroku Config vars need to be set accordingly including DATABASE_URL and SECRET_KEY
+
+12. Create env.py directly under the repo directory same lavel as manage.py and make sure the file name is included in .gitignore as this is a setting for local development site in Gitpod. 
+Heroku Config vars need to be set accordingly including DATABASE_URL and SECRET_KEY
+
+13. In the Gitpod terminal, migrate the change by
+python3 manage.py migrate. Check the resource tab in heroku and choose 
+Heroku Postgres then ensure the changes are reflected in the database
+
+14. DISABLE_COLLECTSTATIC set to 1 in Config Vars in Heroku as the initial deployment does not contain static files yet.
+
+15. In setting.py configure followings:
+
+    * Set STATICFILES_DIRS, STATIC_ROOT, MEDIA_URL and DEFAULT_FILE_STORAGE so that Django can use the directories appropriately.
+
+    * Set TEMPLATES_DIR just below BASE_DIR and insert TEMPLATES_DIR in TEMPLATES array
+    'DIRS': []
+
+    * Set ALLOWED_HOSTS array as 'scandic.herokuapp.com', 'localhost'
+
+16. Create Procfile with the contents 
+
+    web: gunicorn scandic.wsgi    
+
+17. Next go to "Deploy" in the menu bar on the top
+
+18. Go to section "deployment method", choose "GitHub"
+
+19. New section will appear "Connect to GitHub" - Search for the repository to connect to
+
+20. type the name of your repository and click "search"
+
+21. once Heroku finds your repository - click "connect"
+
+22. Scroll down to the section "Automatic Deploys"
+
+23. Click "Enable automatic deploys" or choose "Deploy branch" and manually deploy
+   * I have chosen manual deployment by pressing the Deploy branch button instead of Enable Automatic Deploys 
+
+24. Click "Deploy branch"
+
+Once the program runs: you should see the message "the app was successfully deployed"
+
+ 25. Click the button "View". This View button will open the terminal game in the new window. Here is the deployed page [Scandic](https://scandic.herokuapp.com/)
+
+ 26. As manual deployment was chosen, I had to come back to the Heroku deployment page whenever I have an updated working version pushed into the GitHub page.  
+
+# Forking the GitHub repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
+
+2. Locate the GitHub repository. Link can be found [here](https://github.com/HeleJ/scandic).
+
+3. At the top of the repository, on the right side of the page, select "Fork".
+
+4. You should now have a copy of the original repository in your GitHub account.
+
+# Making a local clone
+
+1. Locate the GitHub repository. Link can be found [here](https://github.com/HeleJ/scandic).
+
+2. Next to the green Gitpod button you will see a button "code" with an arrow pointing down
+
+3. You are given the option to open with GitHub desktop or download zip
+
+4. You can also copy the https full link, go to git bash and write git clone and paste the full link  
+
+# Credits
+
+  * My mentor Tim Nelson
+
+  * Rebecca at [CI Tutor support](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopmentecommerce/tutor) for his patience and guiding me in the right direction.
