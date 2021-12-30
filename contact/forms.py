@@ -1,5 +1,6 @@
 from django import forms
 
+
 class ContactForm(forms.Form):
     subject = forms.CharField()
     # phone = forms.CharField()
