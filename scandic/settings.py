@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'reservation',
     'contact',
     'aboutus',
+    'home',
 
 ]
 
