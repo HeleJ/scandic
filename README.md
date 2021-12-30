@@ -81,13 +81,7 @@ Portfolio Project Four: Back end - Code Institute - Deadline 02th January 2022
 
 ## Testing
 
-### Responsiveness
-
-### Manual and Automated testing
-
-
-### Errors encountered during development
-
+For all testing documentation, please refer to [TESTING.md](TESTING.md)
 
 ## Setting up Django environment.
 
@@ -119,16 +113,16 @@ Following additional packages are installed to create this site by using pip3 in
 
 9. Go to section "Config Vars" and click the button "Reveal Config Vars"
 
-10. Copy the value for DATABASE_URL key
+10. Copy the value for `DATABASE_URL` key
 
 11. Create env.py directly under the repo directory same lavel as manage.py and make sure the file name is included in .gitignore as this is a setting for local development site in Gitpod. 
-Heroku Config vars need to be set accordingly including DATABASE_URL and SECRET_KEY
+Heroku Config vars need to be set accordingly including `DATABASE_URL` and `SECRET_KEY`
 
 12. Create env.py directly under the repo directory same lavel as manage.py and make sure the file name is included in .gitignore as this is a setting for local development site in Gitpod. 
 Heroku Config vars need to be set accordingly including DATABASE_URL and SECRET_KEY
 
 13. In the Gitpod terminal, migrate the change by
-python3 manage.py migrate. Check the resource tab in heroku and choose 
+`python3 manage.py migrate`. Check the resource tab in heroku and choose 
 Heroku Postgres then ensure the changes are reflected in the database
 
 14. DISABLE_COLLECTSTATIC set to 1 in Config Vars in Heroku as the initial deployment does not contain static files yet.
@@ -189,7 +183,11 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 3. You are given the option to open with GitHub desktop or download zip
 
-4. You can also copy the https full link, go to git bash and write git clone and paste the full link  
+4. You can also copy the https full link, go to git bash and write git clone and paste the full link
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HeleJ/scandic)
 
 # Credits
 
