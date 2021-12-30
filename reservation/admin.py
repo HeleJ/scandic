@@ -1,5 +1,5 @@
 """
-for User
+for Admin to see reservations
 """
 from django.contrib import admin
 
